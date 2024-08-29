@@ -1,2 +1,4 @@
 # scorecraft_bot
-quiz bot for eduational project
+demo of quiz bot for eduational project
+
+https://t.me/Tingol_yandex_bot
