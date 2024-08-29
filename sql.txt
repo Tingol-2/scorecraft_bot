@@ -1,0 +1,33 @@
+CREATE TABLE `questions_database` (
+user_id Uint64, 
+question_index String,
+PRIMARY KEY (`user_id`)
+);
+
+COMMIT;
+
+CREATE TABLE `math_quiz` (
+user_id Uint64, 
+question_index Uint64,
+score Uint64,
+PRIMARY KEY (`user_id`)
+);
+
+COMMIT;
+
+CREATE TABLE `verbal_quiz` (
+user_id Uint64, 
+question_index Uint64,
+score Uint64,
+PRIMARY KEY (`user_id`)
+);
+
+COMMIT;
+
+CREATE TABLE `quiz_name` (
+user_id Uint64, 
+name String,
+PRIMARY KEY (`user_id`)
+);
+
+COMMIT;
